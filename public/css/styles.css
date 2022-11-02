@@ -288,7 +288,7 @@
 
   main {
     width: 90%;
-    margin: auto;
+    margin: 0px auto;
   }
 
   main section article {
