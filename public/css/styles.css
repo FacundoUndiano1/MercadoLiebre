@@ -22,8 +22,8 @@
 
 
   ul {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
   }
 
@@ -91,10 +91,10 @@
     border-radius: 3px;
     content: 'Seleccionar foto de perfil';
     position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
   }
 
   .form-group-photo input[type="file"] {
@@ -106,7 +106,7 @@
     border: 1px solid #e8e8e8;
     transition: all .3s;
     display: inline-block;
-    opacity: 0;
+    opacity: 0px;
   }
 
   #img::before {
@@ -238,7 +238,7 @@
     color: #666;
     width: 30px;
     height: 30px;
-    right: 0;
+    right: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -272,14 +272,14 @@
     border-radius: 8px;
     color: #FFF;
     font-size: 22px;
-    padding: 6px 0;
+    padding: 6px 0px;
     max-width: 44px;
     display: block;
     text-align: center;
     margin: auto;
   }
 
-  section.banner img {
+  .banner img {
     width: 100%; 
     margin-top: 116px;
   }
@@ -288,7 +288,7 @@
 
   main {
     width: 90%;
-    margin: 0 auto;
+    margin: auto;
   }
 
   main section article {
@@ -369,7 +369,7 @@
 
   .main-footer {
     background-color: #ffffff;
-    padding: 20px 0;
+    padding: 20px 0px;
     margin-top: 80px;
   }
   
@@ -380,7 +380,7 @@
   .footer-info i {
     color: var(--light-blue);
     font-size: 2em;
-    padding: 10px 0;
+    padding: 10px 0px;
 }
   
   .footer-info h2 {
@@ -401,9 +401,9 @@
   }
   
   .sub-footer p {
-    margin: 0;
+    margin: 0px;
     color: var(--gray);
-    padding: 15px 0;
+    padding: 15px 0px;
   }
 
   .footer-info i:hover {
@@ -485,7 +485,7 @@
 
 
     .main-footer {
-        padding: 40px 0;
+        padding: 40px 0px;
     }
     
     .footer-info {
