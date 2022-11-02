@@ -18,7 +18,7 @@
   <!--Para vincular HTML y CSS. Va abajo de los demas links de estilo-->
   <link rel="stylesheet" href="/css/styles.css" />
 
-  <link rel="icon" href="images/logo-mercado-liebre.svg" />
+  <link rel="icon" href="img/logo-mercado-liebre.svg" />
 
   <title>Mercado Liebre</title>
 </head>
@@ -30,7 +30,7 @@
     <section class="top-header">
       <div class="logo-and-form">
         <div class="logo">
-          <a href="/home"><img src="images logo-mercado-liebre.svg" alt="Logo de MercadoLiebre"/></a>
+          <a href="/home"><img src="img/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre"/></a>
         </div>
       </div>
       <div class="form" action="#" method="GET">
@@ -73,30 +73,37 @@
   <!--Inicio del main-->
   <main class="register">
     <form action="/" method="" class="register">
-      <h3>Ingresar</h3>
+      <h3 class="h3-login">Ingresar</h3>
 
+      <br>
       <div class="form-group">
-        <label for="name">Nombre de usuario</label>
+        <label for="name"><b> Nombre de usuario </b></label>
+        <br>
         <input type="text" name="name" placeholder="Nombre de usuario" minlength="4"
             required/>
       </div>
-
+      <br>
       <div class="form-group">
-        <label for="pass">Contraseña</label>
+        <label for="pass"><b> Contraseña </b></label>
+        <br>
         <input type="password" name="pass" minlength="6" maxlength="10" required
             placeholder="Contraseña"/>
       </div>
+      
+      <br>
 
-      <button type="submit" class="primary">Ingresar</button>
-    </form>
+      <button type="submit" class="primary"> Ingresar </button>
+      <br>
+      <button type="submit" class="primary"> Crea tu cuenta </button>
+      
   </main>
   <!--Final del main-->
 
   <!--Inicio del footer-->
   <footer class="main-footer">
-    <section class="container">
+    <section>
       <div class="row">
-        <div class="col-12 col-lg-4">
+        <div>
           <article class="footer-info">
             <i class="fas fa-credit-card"></i>
             <h2>Pagá con tarjeta o en efectivo</h2>
@@ -106,7 +113,7 @@
             </p>
           </article>
         </div>
-        <div class="col-12 col-lg-4">
+        <div>
           <article class="footer-info">
             <i class="fas fa-gift"></i>
             <h2>Envío gratis desde $ 1.999</h2>
@@ -116,7 +123,7 @@
             </p>
           </article>
         </div>
-        <div class="col-12 col-lg-4">
+        <div>
           <article class="footer-info">
             <i class="fas fa-user-shield"></i>
             <h2>Seguridad, de principio a fin</h2>
@@ -133,7 +140,7 @@
 
   <!--Sub-footer-->
   <section class="sub-footer">
-    <div class="container">
+    <div>
       <p>
         Copyright © Copyright © MercadoLiebre S.R.L.
       </p>

@@ -1,4 +1,4 @@
-section<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -24,7 +24,7 @@ section<!DOCTYPE html>
     <!--Para vincular HTML y CSS. Va abajo de los demas links de estilo-->
     <link rel="stylesheet" href="/css/styles.css" />
 
-    <link rel="icon" href="images/logo-mercado-liebre.svg" />
+    <link rel="icon" href="img/logo-mercado-liebre.svg" />
 
     <title>Mercado Liebre</title>
   </head>
@@ -37,7 +37,7 @@ section<!DOCTYPE html>
           <div class="logo">
             <a href="/home"
               ><img
-                src="images/logo-mercado-liebre.svg"
+                src="img/logo-mercado-liebre.svg"
                 alt="Logo de MercadoLiebre"
             /></a>
           </div>
@@ -86,7 +86,7 @@ section<!DOCTYPE html>
     <!--Inicio del main-->
     <main>
       <form action="/" method="" class="register">
-        <h3>Registrarse</h3>
+        <h3 class="h3-register">Registrarse</h3>
 
         <div class="form-section">
           <input
@@ -97,7 +97,7 @@ section<!DOCTYPE html>
             required
           />
         </div>
-
+        <br>
         <div class="form-section">
           <input
             type="text"
@@ -107,17 +107,20 @@ section<!DOCTYPE html>
             required
           />
         </div>
-
+        <br>
         <div class="form-section">
           <input type="email" name="email" placeholder="Email" required />
         </div>
-
+        <br>
         <div class="form-section">
-          <label for="date"> Fecha de nacimiento </label>
+          <label for="date"><b> Fecha de nacimiento </b></label>
+          <br>
           <input type="date" name="date" required />
         </div>
-
+        <br>
         <div class="form-section">
+          <label for="text"><b> Domicilio </b></label>
+          <br>
           <input
             type="text"
             name="name"
@@ -126,49 +129,50 @@ section<!DOCTYPE html>
             required
           />
         </div>
-
+        <br>
         <div class="form-section-rc">
-          <label for="term"> Perfil de usuario </label>
+          <label for="term"><b>  Perfil de usuario </b> </label>
           <div>
             <input type="radio" name="term" value="buy" required />
-            <label for="buy">Comprador</label>
+            <label for="buy"> Comprador </label>
           </div>
           <div>
             <input type="radio" name="term" value="sell" required />
-            <label for="sell">Vendedor</label>
+            <label for="sell"> Vendedor </label>
           </div>
         </div>
-
+        <br>
         <div class="form-section-rc">
-          <label for="hobbies"> Intereses </label>
+          <label for="hobbies"><b> Intereses </b></label>
           <div>
             <input type="checkbox" name="hobbies" value="1" />
-            <label for="1">Electro</label>
+            <label for="1"> Electro </label>
           </div>
           <div>
             <input type="checkbox" name="hobbies" value="2" />
-            <label for="2">Moda</label>
+            <label for="2"> Moda </label>
           </div>
           <div>
             <input type="checkbox" name="hobbies" value="3" />
-            <label for="3">Hogar</label>
+            <label for="3"> Hogar </label>
           </div>
           <div>
             <input type="checkbox" name="hobbies" value="4" />
-            <label for="4">Jugueteria</label>
+            <label for="4"> Jugueteria </label>
           </div>
           <div>
             <input type="checkbox" name="hobbies" value="4" />
-            <label for="5">Vida Sana</label>
+            <label for="5"> Vida Sana </label>
           </div>
         </div>
-
+        <br>
         <div class="form-section-photo" id="img">
           <input type="file" name="img" accept="image/*" />
         </div>
-
+        <br>
         <div class="form-section">
-          <label for="pass">Contraseña</label>
+          <label for="pass"><b> Contraseña </b></label>
+          <br>
           <input
             type="password"
             name="pass"
@@ -178,17 +182,19 @@ section<!DOCTYPE html>
             placeholder="Contraseña"
           />
         </div>
-
-        <button type="submit" class="primary">Enviar</button>
+        <br>
+        <button type="submit" class="primary"> Enviar </button>
+        <hr>
+        <button type="submit" class="primary"> Borrar </button>
       </form>
     </main>
     <!--Final del main-->
 
     <!--Inicio del footer-->
     <footer class="main-footer">
-      <section class="container">
+      <section>
         <div class="row">
-          <div class="col-12 col-lg-4">
+          <div>
             <article class="footer-info">
               <i class="fas fa-credit-card"></i>
               <h2>Pagá con tarjeta o en efectivo</h2>
@@ -198,7 +204,7 @@ section<!DOCTYPE html>
               </p>
             </article>
           </div>
-          <div class="col-12 col-lg-4">
+          <div>
             <article class="footer-info">
               <i class="fas fa-gift"></i>
               <h2>Envío gratis desde $ 1.999</h2>
@@ -208,7 +214,7 @@ section<!DOCTYPE html>
               </p>
             </article>
           </div>
-          <div class="col-12 col-lg-4">
+          <div>
             <article class="footer-info">
               <i class="fas fa-user-shield"></i>
               <h2>Seguridad, de principio a fin</h2>
@@ -225,7 +231,7 @@ section<!DOCTYPE html>
 
     <!--Sub-footer-->
     <section class="sub-footer">
-      <div class="container">
+      <div>
         <p>Copyright © Copyright © MercadoLiebre S.R.L.</p>
       </div>
     </section>
