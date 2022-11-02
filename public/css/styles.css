@@ -110,7 +110,7 @@
   }
 
   #img::before {
-    content: 'Seleccionar foto de perfil';
+    content: 'Seleccionar foto de Perfil';
   }
 
   .form-group-photo:hover::before{
@@ -138,7 +138,6 @@
     outline: none;
     border: 1px solid var(--light-blue);
   }
-
 
 
   .last-visit h3 {
