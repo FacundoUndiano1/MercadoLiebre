@@ -5,11 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!--Para vincular fuente Roboto-->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
+  <!--Para vincular fuente Roboto-->
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
 
   <!--Para linkear iconos-->
@@ -18,6 +18,7 @@
   <!--Para vincular HTML y CSS. Va abajo de los demas links de estilo-->
   <link rel="stylesheet" href="/css/styles.css" />
 
+  <!--Para agregar logo en la pestaña-->
   <link rel="icon" href="img/logo-mercado-liebre.svg" />
 
   <title>Mercado Liebre</title>
@@ -74,18 +75,21 @@
   <main class="register">
     <form action="/" method="" class="register">
       <h3 class="h3-login">Ingresar</h3>
-
-      <br>
+      <hr class="hr-invisible">
+      <hr class="hr-invisible">
+      
       <div class="form-group">
         <label for="name"><b> Nombre de usuario </b></label>
-        <br>
+        <hr class="hr-invisible">
+        <hr class="hr-invisible">
         <input type="text" name="name" placeholder="Nombre de usuario" minlength="4"
             required/>
       </div>
       <br>
       <div class="form-group">
         <label for="pass"><b> Contraseña </b></label>
-        <br>
+        <hr class="hr-invisible">
+        <hr class="hr-invisible">
         <input type="password" name="pass" minlength="6" maxlength="10" required
             placeholder="Contraseña"/>
       </div>
@@ -93,7 +97,8 @@
       <br>
 
       <button type="submit" class="primary"> Ingresar </button>
-      <br>
+      <hr class="hr-invisible">
+      <hr class="hr-invisible">
       <button type="submit" class="primary"> Crea tu cuenta </button>
       
   </main>

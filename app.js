@@ -1,3 +1,4 @@
+
 //Requerir paquetes express y path
 const express = require('express');
 const app = express();
@@ -12,7 +13,7 @@ app.use(express.static(publicPath));
 //Abriendo puerto 3000
 let PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log('servidor corriendo en puertO ' + PORT);
+  console.log('servidor corriendo en puerto ' + PORT);
 });
 
 //////////////////////////////////////////////////

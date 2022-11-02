@@ -24,6 +24,7 @@
     <!--Para vincular HTML y CSS. Va abajo de los demas links de estilo-->
     <link rel="stylesheet" href="/css/styles.css" />
 
+    <!--Para agregar logo en la pestaña-->
     <link rel="icon" href="img/logo-mercado-liebre.svg" />
 
     <title>Mercado Liebre</title>
@@ -115,12 +116,14 @@
         <div class="form-section">
           <label for="date"><b> Fecha de nacimiento </b></label>
           <br>
+          <hr class="hr-invisible">
           <input type="date" name="date" required />
         </div>
         <br>
         <div class="form-section">
           <label for="text"><b> Domicilio </b></label>
           <br>
+          <hr class="hr-invisible">
           <input
             type="text"
             name="name"
@@ -132,6 +135,7 @@
         <br>
         <div class="form-section-rc">
           <label for="term"><b>  Perfil de usuario </b> </label>
+          <hr class="hr-invisible">
           <div>
             <input type="radio" name="term" value="buy" required />
             <label for="buy"> Comprador </label>
@@ -144,6 +148,7 @@
         <br>
         <div class="form-section-rc">
           <label for="hobbies"><b> Intereses </b></label>
+          <hr class="hr-invisible">
           <div>
             <input type="checkbox" name="hobbies" value="1" />
             <label for="1"> Electro </label>
@@ -173,6 +178,7 @@
         <div class="form-section">
           <label for="pass"><b> Contraseña </b></label>
           <br>
+          <hr class="hr-invisible">
           <input
             type="password"
             name="pass"
@@ -184,7 +190,8 @@
         </div>
         <br>
         <button type="submit" class="primary"> Enviar </button>
-        <hr>
+        <hr class="hr-invisible">
+        <hr class="hr-invisible">
         <button type="submit" class="primary"> Borrar </button>
       </form>
     </main>

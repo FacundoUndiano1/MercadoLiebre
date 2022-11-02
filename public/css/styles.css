@@ -5,7 +5,7 @@
     --gray: #666666;
     --light-gray: #ebebeb;
     --green: #39b54a;
-    --base-font-family: 'Roboto', sans-serif
+    --base-font-family: 'Roboto', sans-serif;
   }
 
   * {
@@ -37,6 +37,10 @@
     color: #090909;
   }
 
+  .hr-invisible {
+    visibility: collapse;
+  }
+
   form.register {
     margin: auto;
     display: flex;
@@ -47,6 +51,11 @@
     border-radius: 9px;
     background-color: var(--yellow);
     width: 300px;
+    text-align: center;
+    text-align: left;
+  }
+
+  form.register .form-section-photo {
     text-align: center;
   }
 
@@ -103,7 +112,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 3px;
-    content: 'Seleccionar foto de Perfil';
+    content: 'Seleccione su foto de Perfil';
     position: absolute;
     left: 0px;
     right: 0px;
@@ -124,7 +133,7 @@
   }
 
   #img::before {
-    content: 'Seleccionar foto de Perfil';
+    content: 'Seleccione su foto de Perfil';
   }
 
   .form-group-photo:hover::before{
