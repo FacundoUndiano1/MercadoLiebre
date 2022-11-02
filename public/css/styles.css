@@ -295,7 +295,7 @@
   }
 
 
-  main section article img   {
+  main section article img {
     width: 100%;
   }
 
@@ -304,7 +304,7 @@
     color: var(--green);
   }
 
-  .main-article {
+  .product-description {
     position: relative;
   }
 
@@ -327,7 +327,7 @@
   }
 
 
-  article div.main-article {
+  article div.product-description {
     width: 100%;
     border-top: 1px solid var(--light-gray);
     padding: 10px;
@@ -399,9 +399,10 @@
   }
   
   .sub-footer p {
-    margin: 0px;
+    margin-left: 15px;
     color: var(--gray);
     padding: 15px 0px;
+    font-weight: bold;
   }
 
   .footer-info i:hover {
