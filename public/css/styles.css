@@ -20,7 +20,6 @@
   }
 
 
-
   ul {
     margin: 0px;
     padding: 0px;
@@ -89,7 +88,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 3px;
-    content: 'Seleccionar foto de perfil';
+    content: 'Seleccionar foto de Perfil';
     position: absolute;
     left: 0px;
     right: 0px;
@@ -285,7 +284,6 @@
   }
 
 
-
   main {
     width: 90%;
     margin: 0px auto;
@@ -418,7 +416,6 @@
         visibility: hidden;
     }
 
-
     .card:hover .descriptions {
         visibility: visible;
     }
@@ -427,11 +424,9 @@
         padding-top: 200px;
     }
 
-
     .card {
         width: 45%;
     }
-
 
     main section article i {
         transition: transform 1s;
@@ -476,7 +471,6 @@
         flex-grow: 0.1;
         display: flex;
         justify-content: space-around;
-        
     }
 
     .burguer-menu {
