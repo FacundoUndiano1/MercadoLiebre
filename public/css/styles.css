@@ -439,11 +439,11 @@
     }
 
     main section article i {
-        transition: transform 1s;
+        transition: transform 0.5s;
     }
 
     .card:hover i {
-        transform: rotate(-45deg);
+        transform: rotate(90deg);
     }
 
     .card:hover {
