@@ -19,7 +19,6 @@
     background-color: #ebebeb;
   }
 
-
   ul {
     margin: 0px;
     padding: 0px;
@@ -443,7 +442,7 @@
     }
 
     .card:hover i {
-        transform: rotate(90deg);
+        transform: rotate(-90deg);
     }
 
     .card:hover {
