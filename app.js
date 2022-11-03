@@ -11,7 +11,7 @@ const publicPath = path.resolve(__dirname, './public');
 app.use(express.static(publicPath));
 //////////////////////////////////////////////////
 //Abriendo puerto 3000
-let PORT = process.env.PORT || 3000;
+let PORT = process.env.PORT || 3000; //El web hosting le da un puerto a tu proyecto, sino toma el puerto 3000
 app.listen(PORT, () => {
   console.log('servidor corriendo en puerto ' + PORT);
 });
