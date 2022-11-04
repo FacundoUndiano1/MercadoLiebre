@@ -255,6 +255,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    left: -33px;
+    top: -5px;
   }
 
   .logo-and-form {
