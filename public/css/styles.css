@@ -270,6 +270,11 @@
     font-size: 14px;
   }
 
+  header .form {
+    left: -20px;
+    margin-right: 5px;
+  }
+
   .burger-container {
     padding-bottom: 12px;
   }
@@ -534,6 +539,11 @@
 
     .banner img {
       margin-top: 116px;
+    }
+
+    header .form {
+      right: -65px;
+      bottom: -11px;
     }
 
   }
