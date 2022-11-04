@@ -1,3 +1,5 @@
+  
+  
   :root {
     --yellow: #EAC926;
     --dark-blue: #03264C;
@@ -8,32 +10,47 @@
     --base-font-family: 'Roboto', sans-serif;
   }
 
+
+  /*!Selectores universales*/
   * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
   }
 
+
+  /*!Reglas generales para el body*/
   body {
     font-family: 'Roboto', sans-serif;
     background-color: #ebebeb;
   }
 
+
+  /*!Reglas generales para las ul*/
   ul {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
   }
+  
 
+  /*!Reglas generales para las p*/
+   p {
+    font-size: 12px;
+  }
+
+
+  /*!Espacios invisibles con hr*/
+  .hr-invisible {
+    visibility: collapse;
+  }
+
+
+  /*!Hover-register-login*/
   a:hover {
     text-decoration: none;
     font-weight: bold;
     color: #000;
-  }
-
-
-  .hr-invisible {
-    visibility: collapse;
   }
 
   .h3-register {
@@ -67,7 +84,6 @@
     font-size: 22px;
     color: #090909;
   }
-
 
   .form-group input {
     width: 80%;
@@ -141,7 +157,6 @@
     color: var(--light-gray);
   }
 
-
   .primary {
     color: #090909;
     padding: 0.5em 1.5em;
@@ -163,21 +178,9 @@
   }
 
 
-  .last-visit h3 {
-    font-size: 24px;
-    color: var(--gray);
-  }
-
-  .offers h3 {
-    font-size: 24px;
-    color: var(--gray);
-  }
-
-  p {
-    font-size: 12px;
-  }
 
 
+  /*!Header-logo-listas*/
   section.top-header {
     display: flex;
     padding: 10px;
@@ -199,7 +202,6 @@
     padding: 10px;
   }
 
-
   header div.form {
     width: 33vw;
     display: flex;
@@ -219,7 +221,6 @@
     text-decoration: none;
     color: #000;
   }
-
 
   header nav.links {
     display: none;
@@ -243,7 +244,6 @@
     padding-left: 15px;
     border-radius: 4px;
   }
-
 
   header .form .submit {
     background-color: #FFF;
@@ -270,6 +270,10 @@
     font-size: 14px;
   }
 
+
+
+
+  /*!Burguer*/
   .burger-container {
     padding-bottom: 12px;
   }
@@ -286,12 +290,18 @@
     margin: auto;
   }
 
+
+
+
+  /*!Banner*/
   .banner img {
     width: 100%; 
     margin-top: 170px;
   }
 
 
+
+  /*!Main section*/
   main {
     width: 90%;
     margin: 0px auto;
@@ -301,7 +311,6 @@
     background-color: #fff;    
     margin: 10px 0px;
   }
-
 
   main section article img {
     width: 100%;
@@ -336,12 +345,21 @@
     text-align: center;
   }
 
-
   article div.product-description {
     width: 100%;
     border-top: 1px solid var(--light-gray);
     padding: 10px;
     box-sizing: border-box;
+  }
+
+  .last-visit h3 {
+    font-size: 24px;
+    color: var(--gray);
+  }
+
+  .offers h3 {
+    font-size: 24px;
+    color: var(--gray);
   }
 
   p.prices {
@@ -355,7 +373,6 @@
     font-size: 16px;
     margin-left: 8px;
   }
-
 
   .descriptions {
     font-size: 16px;
@@ -375,6 +392,8 @@
 
 
 
+
+  /*!Footer y subfooter*/
   .main-footer {
     background-color: #ffffff;
     padding: 20px 0px;
@@ -421,6 +440,8 @@
   }
 
   
+
+  /*!Querie tablet*/
   @media (min-width: 426px) {
 
     .descriptions {
@@ -465,7 +486,7 @@
     
   }
 
-
+  /*!Querie desktop*/
   @media (min-width: 769px) {
     .top-header {
         flex-direction: row;
