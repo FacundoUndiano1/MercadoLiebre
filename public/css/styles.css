@@ -31,13 +31,14 @@
     color: #000;
   }
 
-  .h3-register {
-    font-size: 22px;
-    color: #090909;
-  }
 
   .hr-invisible {
     visibility: collapse;
+  }
+
+  .h3-register {
+    font-size: 22px;
+    color: #090909;
   }
 
   form.register {
@@ -525,7 +526,7 @@
       justify-content: space-around ;
     }
 
-    .coso {
+    .footer-article {
       display: flex;
       width: 30%;
       justify-content: space-around;
@@ -534,4 +535,5 @@
     .banner img {
       margin-top: 116px;
     }
+
   }
