@@ -59,7 +59,7 @@
     padding-bottom: 50px;
     border-radius: 9px;
     background-color: var(--yellow);
-    width: 300px;
+    width: 100%;
     text-align: center;
     text-align: left;
   }
@@ -531,14 +531,20 @@
       right: 8px;
     }
 
+
+
+    /*?Login*/
+
     form.register {
       padding-top: 200px;
+      width: 90vw;
     }
   }
   
-  /*!Querie desktop*/
 
-    /*?Media con max?*/
+
+
+  /*!Querie desktop*/
     @media (min-width: 769px) {
       
     /**Header menos nav y burger*/
@@ -709,8 +715,68 @@
       font-weight: 300;
     }
 
+
+
+    /*?Register*/
+
     /**Register*/
     form.register {
       padding-top: 120px;
+    }
+
+    /**h3 Register*/
+    .h3-register{
+      padding-top: 12px;
+    }
+    
+    /**Labels del register*/
+    .register label {
+      color: #666666;
+    }
+
+    /**Inputs del register*/
+    .register input {
+      text-align: center;
+    }
+
+
+
+    
+    /*?Login*/
+
+    /**Login h3 container*/
+    .h3-login-container {
+      width: 80%;
+      padding-bottom: 20px;
+      padding-top: 12px;
+      text-align: center;
+    }
+
+    /**Login h3 */
+    .h3-login {
+      border-bottom: 2px solid #666666;
+    }
+
+    /**Login username*/
+    .login-username {
+      text-align: center;
+      padding-bottom: 10px;
+    }
+
+    /**Login password*/
+    .login-password {
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    /**Login button1*/
+    .login-button1 {
+      padding: 20px 0px 0px 0px;
+    }
+
+    /**Login button2*/
+    .login-button2 {
+      padding: 10px 0px 0px 0px;
     }
   }
