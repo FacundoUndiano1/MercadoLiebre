@@ -222,11 +222,6 @@
   }
   
   /**Barra de busqueda*/
-  header div .form {
-    width: 280px;
-  }
-
-  /**Barra de busqueda*/
   header div .form .input {
     width: 100%;
     height: 36px;
@@ -520,6 +515,35 @@
     header .form {
       right: -65px;
       bottom: -11px;
+    }
+    
+    /**Barra de busqueda*/
+    header .form .input {
+      display: flex;
+      width: 107%;
+      height: 30px;
+      left: 15px;
+      text-align: center;
+      margin-left: -22px;
+    }
+
+    /**Lupa*/
+    header .form .submit {
+      display: flex;
+      height: 30px;
+      margin-top: 5px;
+      border: 1px solid grey;
+      margin-left: -20px;
+    }
+
+    /**Hand and text*/
+    header section.top-header p {
+      display: flex;
+      position: relative;
+      left: 10px;
+      margin-right: 11px;
+      margin-left: 40px;
+      font-size: 12px;
     }
 
     /**Nav list*/
