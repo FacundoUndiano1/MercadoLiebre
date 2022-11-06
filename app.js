@@ -28,6 +28,11 @@ app.get('/home', (req, res) => { //home
   res.sendFile(path.resolve(__dirname, './views/home.html'));
 });
 
+//Asignar una ruta al home
+app.get('/index', (req, res) => { //home
+  res.sendFile(path.resolve(__dirname, './views/home.html'));
+});
+
 //Asignar una ruta al register
 app.get('/register', (req, res) => {
   res.sendFile(path.resolve(__dirname, './views/register.html'));
