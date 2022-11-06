@@ -25,15 +25,6 @@
     background-color: #ebebeb;
   }
 
-
-  /**Reglas generales para las ul*/
-  ul {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-  
-
   /**Reglas generales para las p*/
    p {
     font-size: 12px;
@@ -237,7 +228,10 @@
     right: 0px;
     display: flex;
     position: relative;
-    width: 100%;    
+    width: 100%;
+    font-size: 10px; 
+    text-align: center; 
+    font-weight: 520;
   }
 
   /**Lupa*/
@@ -280,9 +274,13 @@
   }
 
   /**Nav list a*/
-  header ul li a   {
+  header ul li a {
     text-decoration: none;
     color: #666666;;
+  }
+
+  .link2 li a i {
+    color: #1259c3;
   }
 
   /**Burguer container*/
@@ -558,32 +556,31 @@
     /**Barra de busqueda*/
     header .form .input {
       display: flex;
-      width: 81%;
+      width: 130%;
       height: 30px;
-      left: -160px;
+      left: 10px;
       text-align: center;
       margin-left: -80px;
+      position: relative;
+      top: -12px;
+    }
+
+    header .form .input {
+      font-size: 16px;
     }
 
     /**Lupa*/
     header .form .submit {
       display: flex;
       height: 27px;
-      margin-top: 2px;
-      margin-left: -235px;
+      margin-top: -10px;
+      margin-left: -60px;
       z-index: 1;
     }
 
     /**Hand and text*/
     header section.top-header p {
-      display: flex;
-      position: relative;
-      top: -50px;
-      left: 465px;
-      margin-right: 11px;
-      margin-left: 40px;
-      font-size: 12px;
-      font-weight: bold;
+      display: none;
     }
 
     /**Nav list*/
@@ -595,6 +592,7 @@
       position: relative;
       top: -15px;
       left: 10px;
+      padding-top: 10px;
     }
     
     /**Nav list*/
