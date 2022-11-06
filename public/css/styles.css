@@ -539,7 +539,9 @@
   }
   
   /*!Querie desktop*/
-    @media (min-width: 769px) {
+
+    /*?Media con max?*/
+    @media (max-width: 770px) {
       
     /**Header menos nav y burger*/
     .top-header {
