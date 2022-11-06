@@ -206,7 +206,7 @@
     height: auto;
     padding: 10px;
   }
-  
+
   /**Logo y lupa*/
   .logo-and-form {
     display: flex;
@@ -215,15 +215,15 @@
 
   /**Barra de busqueda*/
   header div.form {
-    width: 33vw;
+    width: 47%;
     display: flex;
     align-self: center;
     position: relative;
+    margin-right: 5px;
   }
   
   /**Barra de busqueda*/
-  header div .form .input {
-    width: 100%;
+  header .form .input {
     height: 36px;
     background-color: #FFF;
     border: none;
@@ -232,9 +232,12 @@
     padding: 2px;
     overflow: hidden;
     max-height: 30px;
-    margin-left: 30px;
-    padding-left: 15px;
     border-radius: 4px;
+    position: relative;
+    right: 0px;
+    display: flex;
+    position: relative;
+    width: 100%;    
   }
 
   /**Lupa*/
@@ -249,8 +252,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    left: -33px;
-    top: -5px;
+    left: -5px;
+    top: 0px;
+    z-index: 1;
   }
 
   /**Manito y texto*/
@@ -259,6 +263,9 @@
     font-size: 14px;
     position: relative;
     right: -70px;
+    top: -10px;
+    font-style: italic;
+    font-weight: bold;
   }
   
   /**Aplica a todo el nav*/
@@ -350,10 +357,13 @@
 
   /**Index articles prices*/
   p.prices {
-    font-size: 18px;
+    font-size: 16px;
     display: inline-block;
     margin-left: 11px;
     font-weight: bold;
+    display: none;
+    color: #1259c3;
+
   }
 
   /**Index articles discounts*/
@@ -362,16 +372,21 @@
     font-size: 16px;
     margin-left: 8px;
     color: #39b54a;
+    display: none;
   }
+
 
   /**Index articles product names*/
   .descriptions {
-    display: none;
     margin-top: 12px;
     margin-left: 12px;
     font-size: 16px;
-    font-weight: normal;
-    color: #666;
+    font-weight: bold;
+    color: #666666;
+    font-style: italic;
+    position: relative;
+    top: -7px;
+    left: -3px;
   }
 
   /**Index articles icons and discount*/
@@ -492,10 +507,30 @@
       transform: rotate(-90deg);
     }
 
+    /**Index articles prices*/
+    .product-description .prices {
+      display: inline;
+      position: relative;
+      bottom: -4px;
+      font-weight: normal;
+      right: -3px;
+      left: 3px;
+    }
+
+    /**Index articles discounts*/
+    .product-description .discounts {
+      display: inline;
+      position: relative;
+      bottom: -4px;
+      left: -3px;
+    }
+
     /**Index product names*/
     .descriptions {
       display: block;
-      visibility: hidden;
+      position: relative;
+      top: -2px;
+      right: 8px;
     }
 
     form.register {
@@ -508,7 +543,8 @@
       
     /**Header menos nav y burger*/
     .top-header {
-        flex-direction: row;
+      flex-direction: row;
+      margin: 0px 5px 0px 5px;
     }
 
     /**Header search bar*/
@@ -520,30 +556,32 @@
     /**Barra de busqueda*/
     header .form .input {
       display: flex;
-      width: 107%;
+      width: 87%;
       height: 30px;
-      left: 15px;
+      left: -180px;
       text-align: center;
-      margin-left: -22px;
+      margin-left: -80px;
     }
 
     /**Lupa*/
     header .form .submit {
       display: flex;
-      height: 30px;
-      margin-top: 5px;
-      border: 1px solid grey;
-      margin-left: -20px;
+      height: 27px;
+      margin-top: 2px;
+      margin-left: -250px;
+      z-index: 1;
     }
 
     /**Hand and text*/
     header section.top-header p {
       display: flex;
       position: relative;
-      left: 10px;
+      top: -50px;
+      left: 492px;
       margin-right: 11px;
       margin-left: 40px;
       font-size: 12px;
+      font-weight: bold;
     }
 
     /**Nav list*/
@@ -552,6 +590,9 @@
       justify-content: space-between;
       margin-right: 4px;
       margin-left: 6px;
+      position: relative;
+      top: -15px;
+      left: 10px;
     }
     
     /**Nav list*/
@@ -560,7 +601,34 @@
       display: flex;
       justify-content: space-around;
     }
+
+    /**Nav list 1*/
+    .link1 li a {
+      font-weight: bold;
+      margin-right: 2px;
+      font-size: 14px;
+    }
+
+    /**Nav list 2*/
+    .link2 {
+      position: relative;
+      left: -20px;
+    }
+
+    /**Nav list 2*/
+    .link2 a {
+      position: relative;
+      left: 0px;
+      font-weight: bold;
+      font-size: 14px;
+    }
     
+    /**Nav list 2*/
+    .link2 li a i {
+      margin-left: 2px;
+      margin-right: 4px;
+    }
+
     /**Burger menu*/
     .burguer-menu {
       display: none;
@@ -570,12 +638,31 @@
     .banner img {
       margin-top: 116px;
     }
+
+    /**Index articles prices*/
+    .product-description .prices {
+      position: relative;
+      left: 3px;
+    }
+
+    /**Index articles discounts*/
+    .product-description .discounts {
+      position: relative;
+      text-decoration-line: underline;
+    }
+
+    /**Index product names*/
+    .descriptions {
+      position: relative;
+      top: 11px;
+      padding-bottom: 5px;
+    }
     
     /**Index product description*/
     .card {
       width: 24%;
-    }
-    
+    } 
+
     /**All footer content*/
     .main-footer {
       padding: 40px 0px;
