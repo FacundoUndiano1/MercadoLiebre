@@ -206,6 +206,12 @@
     height: auto;
     padding: 10px;
   }
+  
+  /**Logo y lupa*/
+  .logo-and-form {
+    display: flex;
+    justify-content: center;
+  }
 
   /**Barra de busqueda*/
   header div.form {
@@ -252,15 +258,14 @@
     top: -5px;
   }
 
-  .logo-and-form {
-    display: flex;
-    justify-content: center;
-  }
-
+  /**Manito y texto*/
   header section.top-header p {
     margin-top: 18px;
     font-size: 14px;
+    position: relative;
+    right: -70px;
   }
+  
   /**Aplica a todo el nav*/
   header nav.links {
     display: none;
@@ -296,12 +301,12 @@
     margin: auto;
   }
 
-
   /**Banner*/
   .banner img {
     width: 100%; 
     margin-top: 170px;
   }
+
 
 
 
