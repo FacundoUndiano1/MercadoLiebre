@@ -19,14 +19,14 @@
   }
 
 
-  /*!Reglas generales para el body*/
+  /**Reglas generales para el body*/
   body {
     font-family: 'Roboto', sans-serif;
     background-color: #ebebeb;
   }
 
 
-  /*!Reglas generales para las ul*/
+  /**Reglas generales para las ul*/
   ul {
     margin: 0px;
     padding: 0px;
@@ -34,25 +34,26 @@
   }
   
 
-  /*!Reglas generales para las p*/
+  /**Reglas generales para las p*/
    p {
     font-size: 12px;
   }
 
 
-  /*!Espacios invisibles con hr*/
+  /**Espacios invisibles con hr*/
   .hr-invisible {
     visibility: collapse;
   }
 
 
-  /*!Hover-register-login*/
+  /**Hover-register-login*/
   a:hover {
     text-decoration: none;
     font-weight: bold;
     color: #000;
   }
 
+  /**Register y login*/
   .h3-register {
     font-size: 22px;
     color: #090909;
@@ -181,6 +182,8 @@
 
 
   /*!Header-logo-listas*/
+
+  /**Header menos nav y burger*/
   section.top-header {
     display: flex;
     padding: 10px;
@@ -189,6 +192,7 @@
     align-items: center;
   }
 
+  /**Para todo el header*/
   header {
     position: fixed;
     z-index: 1000;
@@ -196,40 +200,27 @@
     width: 100%;
   }
 
+  /**Logo*/
   header div.logo {
     min-width: 200px;
     height: auto;
     padding: 10px;
   }
 
+  /**Barra de busqueda*/
   header div.form {
     width: 33vw;
     display: flex;
     align-self: center;
     position: relative;
   }
-
-  header nav {
-    font-size: 12px;
-  }
-
-  header ul li {
-    list-style-type: none;
-  }
-
-  header ul li a   {
-    text-decoration: none;
-    color: #000;
-  }
-
-  header nav.links {
-    display: none;
-  }
-
+  
+  /**Barra de busqueda*/
   header div .form {
     width: 280px;
   }
 
+  /**Barra de busqueda*/
   header div .form .input {
     width: 100%;
     height: 36px;
@@ -245,6 +236,7 @@
     border-radius: 4px;
   }
 
+  /**Lupa*/
   header .form .submit {
     background-color: #FFF;
     border-radius: 0.5em;
@@ -269,15 +261,29 @@
     margin-top: 18px;
     font-size: 14px;
   }
+  /**Aplica a todo el nav*/
+  header nav.links {
+    display: none;
+    font-size: 12px;
+  }
 
+  /**Nav list li*/
+  header ul li {
+    list-style-type: none;
+  }
 
+  /**Nav list a*/
+  header ul li a   {
+    text-decoration: none;
+    color: #000;
+  }
 
-
-  /*!Burguer*/
+  /**Burguer container*/
   .burger-container {
     padding-bottom: 12px;
   }
 
+  /**Burger menu*/
   .burguer-menu {
     background-color: var(--light-blue);
     border-radius: 8px;
@@ -291,9 +297,7 @@
   }
 
 
-
-
-  /*!Banner*/
+  /**Banner*/
   .banner img {
     width: 100%; 
     margin-top: 170px;
@@ -443,7 +447,6 @@
 
   /*!Querie tablet*/
   @media (min-width: 426px) {
-
     .descriptions {
       display: block;
       visibility: hidden;
@@ -483,7 +486,6 @@
     .title {
         margin-top: 24px;
     }
-    
   }
 
   /*!Querie desktop*/
