@@ -30,17 +30,51 @@
     font-size: 12px;
   }
 
+
+
+
+
+  /*!Register*/
+
+  /**H3 register*/
+  .h3-register {
+    font-size: 22px;
+    color: #090909;
+    margin-bottom: 20px;
+  }
+
+  form.register .form-section-photo {
+    text-align: center;
+  }
+
+
+
+
+
+  /*!Login*/
+
+  /**H3 register*/
+  .h3-login {
+    font-size: 22px;
+    color: #090909;
+    margin-bottom: 20px;
+  }
+
+  /**login buttons*/
+  .login-buttons {
+    text-align: center;
+  }
+
+
+
+
+
+
   /**Hover-register-login*/
   a:hover {
     text-decoration: none;
     font-weight: bold;
     color: #000;
-  }
-
-  /**Register y login*/
-  .h3-register {
-    font-size: 22px;
-    color: #090909;
   }
 
   form.register {
@@ -55,19 +89,6 @@
     width: 100%;
     text-align: center;
     text-align: left;
-  }
-
-  form.register .form-section-photo {
-    text-align: center;
-  }
-
-  form.register h3 {
-    margin-bottom: 20px;
-  }
-
-  .h3-login {
-    font-size: 22px;
-    color: #090909;
   }
 
   .form-group input {
@@ -720,6 +741,8 @@
     /**h3 Register*/
     .h3-register{
       padding-top: 12px;
+      border-bottom: 2px solid #666666;
+      width: 100%;
     }
 
     /**Register name*/
