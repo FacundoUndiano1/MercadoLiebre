@@ -572,7 +572,7 @@
       bottom: -11px;
     }
     
-    /**Barra de busqueda*/
+    /**Search bar*/
     header .form .input {
       display: flex;
       width: 130%;
@@ -584,11 +584,12 @@
       top: -12px;
     }
 
+    /**Search bar text*/
     header .form .input {
       font-size: 16px;
     }
 
-    /**Lupa*/
+    /**Magnifying glass*/
     header .form .submit {
       display: flex;
       height: 27px;
@@ -774,24 +775,27 @@
       padding: 13px 0px 13px 0px;
     }
 
+    /**Register user pfp*/
     .register-pfp {
       padding: 13px 0px 13px 0px;
     }
 
+    /**Register user password*/
     .register-password {
       padding: 0px 0px 13px 0px;
     }
 
+    /**Register buttons*/
     .register-buttons {
       padding: 0px 0px 13px 0px;
     }
 
-    /**Labels del register*/
+    /**Labels register*/
     .register label {
       color: #666666;
     }
 
-    /**Inputs del register*/
+    /**Inputs register*/
     .register input {
       text-align: center;
     }
