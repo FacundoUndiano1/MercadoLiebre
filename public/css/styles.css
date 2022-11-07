@@ -36,6 +36,11 @@
 
   /*!Register*/
 
+  /**Register align items*/
+  .form-section {
+    text-align: center;
+  }
+
   /**H3 register*/
   .h3-register {
     font-size: 22px;
@@ -43,12 +48,12 @@
     margin-bottom: 20px;
   }
 
-  /**Register pfp*/
-  form.register .form-section-photo {
+  /**Register pfp align*/
+  .register-pfp .form-section-photo {
     text-align: center;
   }
 
-  /**Register pfp*/
+  /**Register pfp text*/
    #img::before {
     content: 'Seleccione su foto de Perfil';
   }
@@ -69,46 +74,38 @@
     bottom: 0px;
   }
 
+  /**Register pfp input*/
+  .form-group-photo input[type="file"] {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 12px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    display: inline-block;
+    opacity: 0px;
+  }
+
+  /**Register hover*/
+  .form-group-photo:hover::before{
+    background-color: var(--light-blue);
+    color: var(--light-gray);
+  }
+
+
 
 
   /*!Login*/
 
-  /**H3 register*/
+  /**H3 login*/
   .h3-login {
     font-size: 22px;
     color: #090909;
     margin-bottom: 20px;
   }
 
-  /**login buttons*/
-  .login-buttons {
-    text-align: center;
-  }
-
-
-
-
-  /**Hover-register-login*/
-  a:hover {
-    text-decoration: none;
-    font-weight: bold;
-    color: #000;
-  }
-
-  form.register {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 250px;
-    padding-bottom: 50px;
-    border-radius: 9px;
-    background-color: var(--yellow);
-    width: 100%;
-    text-align: center;
-    text-align: left;
-  }
-
+  /**Login section user and password*/
   .form-group input {
     width: 80%;
     height: 36px;
@@ -124,6 +121,7 @@
     border-radius: 4px;
   }
 
+  /**Login section user and password*/
   .form-group,
   .form-group-rc {
     width: 290px;
@@ -131,36 +129,34 @@
     flex-direction: column;
   }
 
-  .form-group-rc div {
-    padding-left: 30px;
-  }
-
-  .form-section {
+  /**login buttons*/
+  .login-buttons {
     text-align: center;
   }
 
-  .form-group-photo {
-    width: 280px;
-    position: relative;
-    display: inline-block;
+
+  /*!Register and login rules*/
+
+  /**Hover para etiquetas a*/
+  a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
   }
 
-  .form-group-photo input[type="file"] {
-    color: #090909;
-    padding: 0.7em 1.7em;
-    font-size: 12px;
-    border-radius: 0.5em;
-    background: #e8e8e8;
-    border: 1px solid #e8e8e8;
-    transition: all .3s;
-    display: inline-block;
-    opacity: 0px;
-  }
-
-  /**Register and login hover*/
-  .form-group-photo:hover::before{
-    background-color: var(--light-blue);
-    color: var(--light-gray);
+  /**Register and login main styles*/
+  form.register {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 250px;
+    padding-bottom: 50px;
+    border-radius: 9px;
+    background-color: var(--yellow);
+    width: 100%;
+    text-align: center;
+    text-align: left;
   }
 
   /**Register and login buttons*/
