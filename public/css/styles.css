@@ -579,7 +579,8 @@
       height: 30px;
       left: 10px;
       text-align: center;
-      margin-left: -80px;
+      margin-left: -75px;
+      margin-right: -14px;
       position: relative;
       top: -12px;
     }
