@@ -43,11 +43,31 @@
     margin-bottom: 20px;
   }
 
+  /**Register pfp*/
   form.register .form-section-photo {
     text-align: center;
   }
 
+  /**Register pfp*/
+   #img::before {
+    content: 'Seleccione su foto de Perfil';
+  }
 
+  /**Register pfp*/
+  .form-group-photo::before {
+    background-color: var(--light-gray);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    content: 'Seleccione su foto de Perfil';
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+  }
 
 
 
@@ -64,8 +84,6 @@
   .login-buttons {
     text-align: center;
   }
-
-
 
 
 
@@ -127,21 +145,6 @@
     display: inline-block;
   }
 
-  .form-group-photo::before {
-    background-color: var(--light-gray);
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-    content: 'Seleccione su foto de Perfil';
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-  }
-
   .form-group-photo input[type="file"] {
     color: #090909;
     padding: 0.7em 1.7em;
@@ -154,15 +157,13 @@
     opacity: 0px;
   }
 
-  #img::before {
-    content: 'Seleccione su foto de Perfil';
-  }
-
+  /**Register and login hover*/
   .form-group-photo:hover::before{
     background-color: var(--light-blue);
     color: var(--light-gray);
   }
 
+  /**Register and login buttons*/
   .primary {
     color: #090909;
     padding: 0.5em 1.5em;
@@ -173,11 +174,13 @@
     transition: all .3s;
   }
 
+  /**Register and login hover buttons*/
   .primary:hover {
     background-color: #0022AA;
     color: var(--light-gray);
   }
-
+  
+  /**Register and login hover inputs*/
   .form-group input:hover {
     outline: none;
     border: 1px solid var(--light-blue);
