@@ -30,13 +30,6 @@
     font-size: 12px;
   }
 
-
-  /**Espacios invisibles con hr*/
-  .hr-invisible {
-    visibility: collapse;
-  }
-
-
   /**Hover-register-login*/
   a:hover {
     text-decoration: none;
@@ -728,7 +721,49 @@
     .h3-register{
       padding-top: 12px;
     }
+
+    /**Register name*/
+    .register-name {
+      padding: 0px 0px 13px 0px;
+    }
     
+    /**Register user*/
+    .register-user {
+      padding: 0px 0px 13px 0px;
+    }
+
+    /**Register email*/
+    .register-email {
+      padding: 0px 0px 13px 0px;
+    }
+
+    /**Register birthday*/
+    .register-birthday {
+      padding: 0px 0px 13px 0px;
+    }
+
+    /**Register adress*/
+    .register-adress {
+      padding: 0px 0px 13px 0px;
+    }
+
+    /**Register user profile*/
+    .register-user-profile {
+      padding: 13px 0px 13px 0px;
+    }
+
+    .register-pfp {
+      padding: 13px 0px 13px 0px;
+    }
+
+    .register-password {
+      padding: 0px 0px 13px 0px;
+    }
+
+    .register-buttons {
+      padding: 0px 0px 13px 0px;
+    }
+
     /**Labels del register*/
     .register label {
       color: #666666;
