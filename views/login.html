@@ -85,7 +85,9 @@
       <section>
         <div class="form-group">
           <div class="login-username">
-            <label for="name"><b> Nombre de usuario </b></label>
+            <div class="login-username-label">
+              <label for="name"><b> Nombre de usuario </b></label>
+            </div>
           </div>
           <input type="text" name="name" placeholder="Nombre de usuario" minlength="4"
               required/>
@@ -96,12 +98,19 @@
       <section>
         <div class="form-group">
           <div class="login-password">
-            <label for="pass"><b> Contraseña </b></label>
-          </div>
+            <div  class="login-password-label">
+              <label for="pass"><b> Contraseña </b></label>
+            </div>
+            </div>
           <input type="password" name="pass" minlength="6" maxlength="10" required
               placeholder="Contraseña"/>
         </div>
       </section>
+
+
+      
+      <section class="login-line"></section>
+
 
 
       <section class="login-buttons">
