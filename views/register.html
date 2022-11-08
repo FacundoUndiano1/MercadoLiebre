@@ -89,166 +89,176 @@
 
       <form action="/" method="POST" class="register">
 
-        <section>
-          <div>
-            <h3 class="h3-register">Registrarse</h3>
-          </div>
-        </section>
-
-
-        
-        
-        <section class="register-name">
-          <div class="form-section"></div>
-            <input
-              type="text"
-              name="name"
-              placeholder="Nombre y apellido"
-              minlength="4"
-              required
-            />
-          </div>
-        </section>
-
-
-
-
-        <section class="register-user">
-          <div class="form-section">
-            <input
-              type="text"
-              name="name"
-              placeholder="Nombre de usuario"
-              minlength="4"
-              required
-            />
-          </div>
-        </section>
-
-
-
-        <section class="register-email">
-          <div class="form-section">
-            <input type="email" name="email" placeholder="Email" required />
-          </div>
-        </section>
-
-        
-
-
-        <section class="register-birthday">
-          <div class="form-section">
-            <label for="date"><b> Fecha de nacimiento </b></label>
-            <br>
-            <input type="date" name="date" required />
-          </div>
-        </section>
-
-
-
-        <section class="adress">
-          <div class="form-section">
-            <label for="text"><b> Domicilio </b></label>
-            <br>
-            <input
-              type="text"
-              name="name"
-              placeholder="Domicilio"
-              minlength="4"
-              required
-            />
-          </div>
-        </section>  
-
-
-
-
-        <section class="register-user-profile">
-          <div class="form-section-rc">
-            <label for="term"><b>  Perfil de usuario </b> </label>
-   
+        <section class="registro">
+          <section>
             <div>
-              <input type="radio" name="term" value="buy" required />
-              <label for="buy"> Comprador </label>
+              <h3 class="h3-register">Registrarse</h3>
             </div>
+          </section>
   
-            <div>
-              <input type="radio" name="term" value="sell" required />
-              <label for="sell"> Vendedor </label>
-            </div>
-          </div>
-        </section>
-    
-
-
-
-        <section>
-          <div class="form-section-rc">
-            <label for="hobbies"><b> Intereses </b></label>
-    
-            <div>
-              <input type="checkbox" name="hobbies" value="1" />
-              <label for="1"> Electro </label>
-            </div>
   
-            <div>
-              <input type="checkbox" name="hobbies" value="2" />
-              <label for="2"> Moda </label>
-            </div>
-  
-            <div>
-              <input type="checkbox" name="hobbies" value="3" />
-              <label for="3"> Hogar </label>
-            </div>
-  
-            <div>
-              <input type="checkbox" name="hobbies" value="4" />
-              <label for="4"> Jugueteria </label>
-            </div>
-  
-            <div>
-              <input type="checkbox" name="hobbies" value="4" />
-              <label for="5"> Vida Sana </label>
-            </div>
-          </div>
-        </section>
-
-
-
-
-        <section class="register-pfp">
-          <div class="form-section-photo" id="img">
-            <br>
-            <input type="file" name="img" accept="image/*" />
-          </div>
-        </section>
-
-
-
-
-        <section class="register-password">
-          <div class="form-section">
-            <label for="pass"><b> Contraseña </b></label>
-            <br>
-            <input
-              type="password"
-              name="pass"
-              minlength="6"
-              maxlength="10"
-              required
-              placeholder="Contraseña"
-            />
-          </div>
-        </section>
-
-
-
-        
-        <section class="register-buttons">
-          <button type="submit" class="primary"> Enviar </button>
-  
-          <button type="submit" class="primary"> Borrar </button>
           
+          
+          <section class="register-name">
+            <div class="form-section"></div>
+              <label for="text"><b> Nombre y apellido </b></label>
+              <br>
+              <input
+                type="text"
+                name="name"
+                placeholder="Nombre y apellido"
+                minlength="4"
+                required
+              />
+            </div>
+          </section>
+  
+  
+  
+  
+          <section class="register-user">
+            <div class="form-section">
+              <label for="text"><b> Nombre de usuario </b></label>
+              <br>
+              <input
+                type="text"
+                name="name"
+                placeholder="Nombre de usuario"
+                minlength="4"
+                required
+              />
+            </div>
+          </section>
+  
+  
+  
+  
+          <section class="register-email">
+            <div class="form-section">
+              <label for="text"><b> Email </b></label>
+              <br>
+              <input type="email" name="email" placeholder="Email" required />
+            </div>
+          </section>
+          
+  
+  
+  
+           <section class="register-password">
+            <div class="form-section">
+              <label for="text"><b> Contraseña </b></label>
+              <br>
+              <input
+                type="password"
+                name="pass"
+                minlength="6"
+                maxlength="10"
+                required
+                placeholder="Contraseña"
+              />
+            </div>
+          </section>
+          
+  
+  
+  
+          <section class="register-birthday">
+            <div class="form-section">
+              <label for="date"><b> Fecha de nacimiento </b></label>
+              <br>
+              <input type="date" name="date" required />
+            </div>
+          </section>
+  
+  
+  
+  
+          <section class="adress">
+            <div class="form-section">
+              <label for="text"><b> Domicilio </b></label>
+              <br>
+              <input
+                type="text"
+                name="name"
+                placeholder="Domicilio"
+                minlength="4"
+                required
+              />
+            </div>
+          </section>  
+  
+  
+  
+  
+          <section class="register-user-profile">
+            <div class="form-section-rc">
+              <label for="term"><b>  Perfil de usuario </b> </label>
+     
+              <div>
+                <input type="radio" name="term" value="buy" required />
+                <label for="buy"> Comprador </label>
+              </div>
+    
+              <div>
+                <input type="radio" name="term" value="sell" required />
+                <label for="sell"> Vendedor </label>
+              </div>
+            </div>
+          </section>
+      
+  
+  
+  
+          <section class="register-interests">
+            <div class="form-section-rc">
+              <label class="interest" for="hobbies"><b> Intereses </b></label>
+      
+              <div>
+                <input type="checkbox" name="hobbies" value="1" />
+                <label for="1"> Electro </label>
+              </div>
+    
+              <div>
+                <input type="checkbox" name="hobbies" value="2" />
+                <label for="2"> Moda </label>
+              </div>
+    
+              <div>
+                <input type="checkbox" name="hobbies" value="3" />
+                <label for="3"> Hogar </label>
+              </div>
+    
+              <div>
+                <input type="checkbox" name="hobbies" value="4" />
+                <label for="4"> Jugueteria </label>
+              </div>
+    
+              <div>
+                <input type="checkbox" name="hobbies" value="4" />
+                <label for="5"> Vida Sana </label>
+              </div>
+            </div>
+          </section>
+  
+  
+  
+  
+          <section class="register-pfp">
+            <div class="form-section-photo" id="img">
+              <br>
+              <input type="file" name="img" accept="image/*" />
+            </div>
+          </section>
+  
+  
+  
+          
+          <section class="register-buttons">
+            <button type="submit" class="primary"> Enviar </button>
+    
+            <button type="submit" class="primary"> Borrar </button>
+            
+          </section>
         </section>
       </form>
     </main>
