@@ -1,6 +1,5 @@
 
 //Contiene la logica de negocio y la ejecucion
-
 const path = require('path'); 
 
 const mainController = {

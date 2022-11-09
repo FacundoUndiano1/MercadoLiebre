@@ -1,7 +1,7 @@
-//Contiene las rutas
 
+//Contiene las rutas
 const express = require('express');
-const router = express.Router();
+const router = express.Router(); //Metodo de express para crear rutas
 const mainController = require('../controllers/mainController');
 
 
