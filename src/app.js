@@ -1,12 +1,11 @@
 
-//Requerir paquetes express y path
 const express = require('express');
 const app = express();
 const path = require('path');
 const mainRouter = require('./routers/mainRouter');
 
 // // ////////////////////////////////////////////
-//Abriendo puerto 3000
+//Abriendo puerto
 let PORT = process.env.PORT || 3000; //El web hosting le da un puerto a tu proyecto, sino toma el puerto 3030
 app.listen(PORT, () => {
   console.log('servidor corriendo en puerto ' + PORT);
@@ -16,4 +15,4 @@ app.listen(PORT, () => {
 app.use(express.static(path.resolve(__dirname,'../public')));
 //////////////////////////////////////////////////
 
-app.use('/', mainRouter)
+app.use('/', mainRouter);

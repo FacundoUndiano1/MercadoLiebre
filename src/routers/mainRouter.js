@@ -11,7 +11,6 @@ router.get('/', mainController.index);
 //Asignar una ruta al home
 router.get('/home', mainController.index);
 
-
 //Asignar una ruta al home
 router.get('/index', mainController.index);
 
@@ -25,6 +24,6 @@ router.get('/login', mainController.login);
 router.get('*', mainController.notFound);
 
 
-//Esporto las rutas
+//Exporto las rutas
 module.exports = router;
 
