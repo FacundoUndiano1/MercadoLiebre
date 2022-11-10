@@ -5,7 +5,7 @@ const path = require('path');
 const mainRouter = require('./routers/mainRouter');
 
 // // ////////////////////////////////////////////
-//Abriendo puerto
+//Abriendo puerto. Indiferete donde vaya tanto principio como final
 let PORT = process.env.PORT || 3000; //El web hosting le da un puerto a tu proyecto, sino toma el puerto 3030
 app.listen(PORT, () => {
   console.log('servidor corriendo en puerto ' + PORT);
