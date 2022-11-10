@@ -4,19 +4,23 @@ const path = require('path');
 
 const mainController = {
 
-  index: (req, res) => { //Home
+  //Index
+  index: (req, res) => {
     res.sendFile(path.resolve(__dirname, '../views/index.html'));
   },
 
-  register: (req, res) => { //Register
+  //Register
+  register: (req, res) => {
     res.sendFile(path.resolve(__dirname, '../views/register.html'));
   },
-
-  login: (req, res) => {  //Login
+  
+  //Login
+  login: (req, res) => {
     res.sendFile(path.resolve(__dirname, '../views/login.html'));
   },
 
-  notFound: (req, res) => { //NotFound
+  //NotFound
+  notFound: (req, res) => { 
     res.status(404).send('Esta mal la ruta absoluta pibe');
   }
 
