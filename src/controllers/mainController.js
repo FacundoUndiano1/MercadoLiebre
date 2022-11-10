@@ -22,5 +22,5 @@ const mainController = {
 
 }
 
-//Exporto controller
+//Exporto controllers
 module.exports = mainController;

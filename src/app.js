@@ -16,3 +16,6 @@ app.use(express.static(path.resolve(__dirname,'../public')));
 //////////////////////////////////////////////////
 
 app.use('/', mainRouter); //Todas las rutas que empiecen con / van a ser respondidas por mainRouter
+
+
+app.set('view engine', 'ejs');
