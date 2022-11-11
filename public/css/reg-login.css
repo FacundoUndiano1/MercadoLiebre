@@ -1,0 +1,250 @@
+
+  /*!Register*/
+  
+
+  /**H3 register*/
+  .h3-register {
+    font-size: 22px;
+    color: #090909;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #666666;
+  }
+
+  /**Register name*/
+  .register-name input{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border: 2px solid #666666;
+  }
+
+  /**Register user*/
+  .register-user input {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border: 2px solid #666666;
+  }
+
+  /**Register email*/
+  .register-email input {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    border: 2px solid #666666;
+  }
+
+  /**Register password*/
+  .register-password input {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    border: 2px solid #666666;
+  }
+
+  /**Register birthday*/
+  .register-birthday input {
+    margin: 0px 0px 15px 0px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #666666;
+  }
+
+  /**Register adress*/
+  .adress input {
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #666666;
+  }
+
+  /**Register interests*/
+  .register-interests {
+    margin-top: 10px;
+  }
+  
+  /**Register pfp text*/
+   #img::before {
+    content: 'Seleccione su foto de Perfil';
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    position: relative;
+    margin: 10px 0px 10px 0px;
+  }
+
+  /**Register pfp input*/
+  .register-pfp input {
+    display: flex;
+    position: relative;
+    right: -35px;
+    top: -19px;
+    margin-bottom: 10px;
+  }
+
+  /**Register pfp*/
+  .form-group-photo::before {
+    background-color: var(--light-gray);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    content: 'Seleccione su foto de Perfil';
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+  }
+
+  /**Register pfp input*/
+  .form-group-photo input[type="file"] {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 12px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    display: inline-block;
+    opacity: 0px;
+  }
+
+  /**Register hover*/
+  .form-group-photo:hover::before{
+    background-color: var(--light-blue);
+    color: var(--light-gray);
+  }
+
+   /**Register buttons */
+  .register-buttons .primary {
+    color: #1259c3;
+    border: 2px solid #39b54a;
+  }
+
+
+
+  /*!Login*/
+
+  /**H3 login*/
+  .h3-login {
+    font-size: 22px;
+    color: #090909;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #666666;
+    width: 50vw;
+    padding: 0px 0px 15px 0px;
+  }
+
+  /**Login username label*/
+  .login-username .login-username-label {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /**Login password label*/
+  .login-password .login-password-label {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /**Login section user and password*/
+  .form-group input {
+    width: 80%;
+    height: 36px;
+    background-color: #FFF;
+    border: none;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    overflow: hidden;
+    margin-left: 30px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border: 2px solid #666666;
+  }
+
+  /**Login section user and password*/
+  .form-group {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /**Login line*/
+  .login-line {
+    border: 1px solid #666666;
+    width: 50vw;
+  }
+
+
+  /**login buttons*/
+  .login-buttons {
+    text-align: center;
+    padding: 10px;
+  }
+
+  /**Login button1 */
+  .login-button1 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  /**Login buttons */
+  .login-buttons .primary {
+    color: #1259c3;
+    border: 2px solid #39b54a;
+  }
+
+
+  /*!Register and login rules*/
+
+  /**Hover para etiquetas a*/
+  a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+  }
+
+  /**Register and login main styles*/
+  form.register {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 250px;
+    padding-bottom: 50px;
+    border-radius: 9px;
+    background-color: var(--yellow);
+    width: 100%;
+    text-align: center;
+    text-align: left;
+  }
+
+  /**Register and login buttons*/
+  .primary {
+    color: #090909;
+    padding: 0.5em 1.5em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+  }
+
+  /**Register and login hover buttons*/
+  .primary:hover {
+    background-color: #0022AA;
+    color: var(--light-gray);
+  }
+  
+  /**Register and login hover inputs*/
+  .form-group input:hover {
+    outline: none;
+    border: 1px solid var(--light-blue);
+  }

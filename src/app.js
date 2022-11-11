@@ -13,9 +13,12 @@ app.listen(PORT, () => {
 //////////////////////////////////////////////////
 //Para usar carpetas estáticas
 app.use(express.static(path.resolve(__dirname,'../public')));
+
+//Template engine
+app.set('views', path.resolve(__dirname, 'views'));
+app.set('view engine', 'ejs');
 //////////////////////////////////////////////////
 
 app.use('/', mainRouter); //Todas las rutas que empiecen con / van a ser respondidas por mainRouter
 
-//Template engine
-app.set('view engine', 'ejs');
+

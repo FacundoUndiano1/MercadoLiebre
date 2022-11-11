@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head') %> 
+
+
+<body>
+  <%- include('./partials/header') %> 
+
+  <!--Inicio del main-->
+  <main class="register">
+    <form action="/" method="POST" class="register">
+
+      <section class="h3-login-container">
+        <div>
+          <h3 class="h3-login">Ingresar</h3>
+        </div>
+      </section>
+
+
+      <section>
+        <div class="form-group">
+          <div class="login-username">
+            <div class="login-username-label">
+              <label for="name"><b> Nombre de usuario </b></label>
+            </div>
+          </div>
+          <input type="text" name="name" placeholder="Nombre de usuario" minlength="4"
+              required/>
+        </div>
+      </section>
+
+
+      <section>
+        <div class="form-group">
+          <div class="login-password">
+            <div  class="login-password-label">
+              <label for="pass"><b> Contraseña </b></label>
+            </div>
+            </div>
+          <input type="password" name="pass" minlength="6" maxlength="10" required
+              placeholder="Contraseña"/>
+        </div>
+      </section>
+
+
+      
+      <section class="login-line"></section>
+
+
+
+      <section class="login-buttons">
+        <div class="login-button1">
+          <button type="submit" class="primary"> Ingresar </button>
+        </div>
+  
+        <div class="login-button2">
+          <button type="submit" class="primary"> Crea tu cuenta </button>
+        </div>
+      </section>
+    </form> 
+  </main>
+  <!--Final del main-->
+
+  <%- include('./partials/footer') %> 
+
+</body>
+</html>
