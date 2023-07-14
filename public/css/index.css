@@ -1,0 +1,448 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #ebebeb;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+
+main {
+    width: 90%;
+    margin: auto;
+    background-color: #ebebeb; 
+}
+
+.logo-barra {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 48%;
+    display: flex;
+    align-items: flex-start;
+    color: #666;
+    align-items: center;
+    height: 70px;
+}
+
+.borde-search {
+    border: 1px solid black;
+    background-color: #FFF;
+    width: 90%;
+}
+
+.barra-busqueda {
+    display: flex;
+    width: 48%;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.barra-busqueda input {
+    font-size: 13px;
+    font-weight: 600;
+    width: 85%;
+    border: none;
+    height: 20px;
+}
+
+.barra-busqueda button {
+    border: none;
+    background-color: #FFF;
+}
+
+
+.compra-header h3 {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.compra-header i {
+    padding-right: 3px;
+}
+
+.doble-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-lista {
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav ul {
+    list-style: none;
+    text-align: left;
+    font-size: 12px;
+    display: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.8);
+    font-weight: bold;
+}
+
+.nav ul i {
+    margin-left: 3px;
+}
+
+.burger-menu {
+    color: #FFFFFF;
+    padding: 5px;
+    background-color: #1259c3;
+    border-radius: 5px;
+    width: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.banner img {
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+}
+
+
+h2 {
+    font-weight: bold;
+    color: #666;
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+
+main h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.article {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.article-footer {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;    
+    position: relative;
+    background-color: #FFF;
+}
+
+.article img {
+    width: 100%;
+}
+
+.article i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    color: #39b54a;
+}
+
+.article .price {
+    font-size: 18px;
+    width: 30%;
+    text-align: start;
+    font-weight: bold;
+}
+
+.price-discount {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: end;
+}
+
+
+.article .discount {
+    color: #39b54a;
+    font-size: 16px;
+    font-weight: bold;
+    width: 70%;
+}
+
+
+.article .description {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.article-footer .description {
+    display: none;
+}
+
+
+
+.main-footer {
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    background-color: #FFFFFF;
+    font-size: 12px;
+}
+
+.main-footer i {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.main-footer h3 {
+    font-weight: bold;
+    font-size: 16px;
+    color: #666;
+}
+
+.main-footer p {
+    color: #666;
+}
+
+.main-footer .p-copyright {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+            /** Termina index**/
+
+
+
+
+
+                /** Queries**/
+
+
+@media (min-width: 361px) {
+    
+    .logo {
+        width: 30%;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .barra-busqueda {
+        width: 40%;
+    }
+
+    .barra-busqueda input {
+        font-size: 11px;
+        font-weight: 400;
+        height: 20px;
+    }
+
+    .borde-search {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .compra-header {
+        width: 25%;
+        
+    }
+
+    .compra-header h3 {
+        font-size: 9px;
+        text-align: center;
+        padding-bottom: 7px;
+    }
+
+
+
+    .nav ul {
+       display: flex;
+       margin-bottom: 10px;
+    }
+
+    .nav-lista a {
+        font-size: 8.3px;
+        padding-left: 3px;
+    }
+
+    .burger-menu {
+        display: none;
+    }   
+
+    main {
+        padding-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+    
+    .article {
+        width: 47%;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .article-footer .price {
+        font-size: 14px;
+    }
+
+    .article-footer .discount {
+        font-size: 12px;
+        text-align: end;
+    }
+
+    .article-footer .description {
+        display: block;
+        font-size: 12px;
+        margin-top: 8px;
+    }
+
+    .main-footer {
+        padding-top: 18px;
+    }
+
+    .main-footer p {
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+
+
+
+
+@media (min-width: 769px) {
+
+    .logo-barra {
+        height: 100px;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .borde-search input {
+        height: 35px;
+        font-size: 15px;
+    }
+    
+    .compra-header h3{
+        font-size: 16px;
+    }
+
+    .nav {
+        margin-bottom: 20px;
+    }
+
+    .doble-lista a {
+        font-size: 15px;
+    }
+
+    main {
+        margin-bottom: 20px;
+    }
+
+    main h2 {
+        margin: 40px 0px;
+        font-size: 30px;        
+    }
+
+    main h3 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .article {
+        width: 24%;
+    }
+
+    .article .price {
+        font-size: 15px;
+    }
+
+    .article .discount {
+        font-size: 15px;
+    }
+
+    .article .description {
+        font-size: 13.7px;
+    }
+
+    .main-footer {
+        margin-top: 20px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .footer-769 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer-769 i:hover {
+        color: #39b54a;
+    }
+
+    .footer-769 section {
+        width: 30%;
+        margin-bottom: 20px;
+    }
+
+    .main-footer h3 {
+        font-size: 20px;
+    }
+
+    .main-footer p {
+        font-size: 17px;
+    }
+
+    .main-footer .p-copyright {
+        text-align: start;
+        padding-bottom: 20px;
+    }
+
+}

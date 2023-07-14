@@ -1,0 +1,831 @@
+
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #ebebeb;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+
+main {
+    width: 90%;
+    margin: auto;
+    background-color: #ebebeb; 
+}
+
+.logo-barra {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 48%;
+    display: flex;
+    align-items: flex-start;
+    color: #666;
+    align-items: center;
+    height: 70px;
+}
+
+.borde-search {
+    border: 1px solid black;
+    background-color: #FFF;
+    width: 90%;
+}
+
+.barra-busqueda {
+    display: flex;
+    width: 48%;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.barra-busqueda input {
+    font-size: 13px;
+    font-weight: 600;
+    width: 85%;
+    border: none;
+    height: 20px;
+}
+
+.barra-busqueda button {
+    border: none;
+    background-color: #FFF;
+}
+
+
+.compra-header h3 {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.compra-header i {
+    padding-right: 3px;
+}
+
+.doble-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-lista {
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav ul {
+    list-style: none;
+    text-align: left;
+    font-size: 12px;
+    display: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.8);
+    font-weight: bold;
+}
+
+.nav ul i {
+    margin-left: 3px;
+}
+
+.burger-menu {
+    color: #FFFFFF;
+    padding: 5px;
+    background-color: #1259c3;
+    border-radius: 5px;
+    width: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.banner img {
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+    height: 19vh;
+}
+
+          
+
+
+
+
+
+.mainRegister {
+    width: 100%;
+    background-color: #EAC926;
+    padding: 30px 10px 0px 10px;
+}
+            
+.h1register {
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 24px;
+    color: #666;
+    background-color: #ebebeb;
+}
+
+.main-form {
+    background-color: #ebebeb;
+}
+
+.fullname {
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 15px;
+}
+            
+.fullname label {
+    font-weight: bold;
+    font-size: 13px;
+    width: 45%;
+    text-align: center;
+}
+            
+.fullname input {
+    text-align: center;
+    width: 45%;
+    height: 4vh;
+}
+            
+.userName {
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 15px;
+}
+            
+.userName label {
+    font-weight: bold;
+    font-size: 13px;
+    width: 45%;
+    text-align: center;
+}
+
+input#user{
+    text-align: center;
+    width: 45%;
+    height: 4vh;
+}
+            
+.birthDate {
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 15px;
+}
+            
+.birthDate label {
+    font-weight: bold;
+    font-size: 13px;
+    width: 45%;
+    text-align: center;
+}
+
+.birthDate input {
+    width: 45%;
+    height: 4vh;
+    text-align: center;
+}
+            
+.address {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 15px;
+}
+            
+.address label {
+    font-weight: bold;
+    font-size: 13px;
+    width: 45%;
+    text-align: center;
+}
+            
+.address input {
+    text-align: center;
+    width: 45%;
+    height: 4vh;
+}
+            
+.sellOrBuy {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+            
+.sellOrBuy label {
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    width: 45%;
+    text-align: center;
+}
+   
+.sellOrBuy input {
+    appearance: none;
+    cursor: pointer;
+    background-color: #fff;
+    width: 9px;
+    height: 2vh;
+    border: 1.5px solid #888;
+    margin-left: 6px;
+}
+
+.sellOrBuy1 {
+    font-size: 13px;
+    padding-right: 20px;
+}
+            
+.interests {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+            
+.interests label {
+    font-weight: bold;
+    font-size: 13px;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.interests input {
+    appearance: none;
+    cursor: pointer;
+    background-color: #fff;
+    width: 9px;
+    height: 2vh;
+    border: 1.5px solid #888;
+    margin-left: 6px;
+}
+
+.interests-div {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 12px;
+    margin-bottom: 3.5px;
+}
+            
+.avatar {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+            
+.avatar label {
+    font-weight: bold;
+    font-size: 13px;
+    width: 45%;
+    text-align: center;
+}
+
+.avatar input {
+    width: 45%;
+    font-size: 11px;
+}
+            
+.password {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    padding-right: 15px;
+}
+
+.password-div1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.password-div2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.password-div1 label {
+    font-size: 13px;
+    font-weight: bold;
+    width: 45%;
+}
+
+.password-div2 label {
+    font-size: 13px;
+    font-weight: bold;
+    width: 45%;
+}
+
+
+input#password {
+    width: 45%;
+}
+            
+.div-registerButtons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+            
+.registerButtons {
+    width: 28%;
+    padding: 0px 2px 0px 2px;     
+}
+            
+.registerButtons input {
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+    background-color: #ebebeb;
+}
+
+.registerButtons input:hover {
+    background-color: #0022AA
+}
+
+
+.blankspace {
+    height: 5vh;
+}
+
+
+.main-footer {
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    background-color: #FFFFFF;
+    font-size: 12px;
+}
+
+.main-footer i {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.main-footer h3 {
+    font-weight: bold;
+    font-size: 16px;
+    color: #666;
+}
+
+.main-footer p {
+    color: #666;
+}
+
+.main-footer .p-copyright {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+@media (min-width: 361px) {
+    
+    .logo {
+        width: 30%;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .barra-busqueda {
+        width: 40%;
+    }
+
+    .barra-busqueda input {
+        font-size: 11px;
+        font-weight: 400;
+        height: 20px;
+    }
+
+    .borde-search {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .compra-header {
+        width: 25%;
+        
+    }
+
+    .compra-header h3 {
+        font-size: 9px;
+        text-align: center;
+        padding-bottom: 7px;
+    }
+
+
+
+    .nav ul {
+       display: flex;
+       margin-bottom: 10px;
+    }
+
+    .nav-lista a {
+        font-size: 8.3px;
+        padding-left: 3px;
+    }
+
+    .burger-menu {
+        display: none;
+    }   
+
+
+
+    .mainRegister {
+        padding-bottom: 10px;
+    }
+
+    .h1register {
+        font-size: 28px;
+        margin-top: 10px;
+        padding: 10px 0px 30px 0px;
+    }
+
+    .fullname {
+        margin-bottom: 25px;
+        padding-right: 25px;
+    }
+
+    .fullname label {
+        font-size: 16px;
+    }
+
+    .fullname input {
+        height: 5vh;
+        font-size: 14px;
+        border: 2px solid #666;
+    }
+
+    .userName {
+        margin-bottom: 25px;
+        padding-right: 25px;
+    }
+
+    .userName label {
+        font-size: 16px;
+    }
+
+    input#user {
+        height: 5vh;
+        border: 2px solid #666;
+    }
+
+    .birthDate {
+        margin-bottom: 25px;
+        padding-right: 25px;
+    }
+
+    .birthDate label {
+        font-size: 16px;
+    }
+
+    .birthDate input {
+        height: 5vh;
+        font-size: 14px;
+        border: 2px solid #666;
+    }
+
+    .address {
+        margin-bottom: 45px;
+        padding-right: 25px;
+    }
+
+    .address label {
+        font-size: 16px;
+    }
+
+    .address input {
+        height: 5vh;
+        font-size: 14px;
+        border: 2px solid #666;
+    }
+
+    .sellOrBuy {
+        margin-bottom: 45px;
+        padding-right: 25px;
+    }
+
+    .sellOrBuy label {
+        font-size: 16px;
+    }
+
+    .sellOrBuy1 {
+        font-size: 16px;
+    }
+
+    .sellOrBuy1 input {
+        width: 12px;
+    }
+
+    .interests {
+        margin-bottom: 45px;
+    }
+
+    .interests label {
+        font-size: 16px;
+    }
+
+    .interests-div {
+        font-size: 16px;
+    }
+
+    .interests-div input {
+        width: 12px;
+    }
+
+    .avatar {
+        margin-bottom: 45px;
+    }
+
+    .avatar label {
+        font-size: 16px;
+    }
+
+    .avatar input {
+        font-size: 14px;
+    }
+
+    .password {
+        margin-bottom: 50px;
+        padding-right: 25px;
+    }
+
+    .password label {
+        font-size: 16px;
+    }
+
+    .password input {
+        height: 5vw;
+        border: 2px solid #666;
+    }
+
+   .registerButtons {
+    width: 22vw;
+   }
+
+
+    .main-footer h3 {
+        font-size: 18px;
+    }
+
+    .main-footer p {
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 769px) {
+    
+    .logo-barra {
+        height: 100px;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .borde-search input {
+        height: 35px;
+        font-size: 15px;
+    }
+    
+    .compra-header h3{
+        font-size: 16px;
+    }
+
+    .nav {
+        margin-bottom: 20px;
+    }
+
+    .doble-lista a {
+        font-size: 15px;
+    }
+    
+    .mainRegister {
+        padding-bottom: 30px;
+    }
+
+    .h1register {
+        font-size: 32px;
+        margin-top: 20px;
+        padding: 20px 0px 40px 0px;
+    }
+
+    .fullname {
+        margin-bottom: 33px;
+        height: 5.5vh;
+        padding-right: 35px;
+    }
+
+    .fullname label {
+        font-size: 20px;
+    }
+
+    .fullname input {
+        height: 5vh;
+        width: 44%;
+        font-size: 16px;
+    }
+
+    .userName {
+        margin-bottom: 33px;
+        height: 5.5vh;
+        padding-right: 35px;
+    }
+
+    .userName label {
+        font-size: 20px;
+    }
+
+    input#user {
+        height: 5vh;
+        width: 44%;
+    }
+
+    .birthDate {
+        margin-bottom: 33px;
+        height: 5.5vh;
+        padding-right: 35px;
+    }
+
+    .birthDate label {
+        font-size: 20px;
+    }
+
+    .birthDate input {
+        height: 5vh;
+        font-size: 16px;
+        width: 44%;
+    }
+
+    .address {
+        margin-bottom: 55px;
+        height: 5.5vh;
+        padding-right: 35px;
+    }
+
+    .address label {
+        font-size: 20px;
+    }
+
+    .address input {
+        height: 5vh;
+        font-size: 16px;
+        width: 44%;
+    }
+
+    .sellOrBuy {
+        margin-bottom: 55px;
+        height: 5.5vh;
+        padding-right: 35px;
+    }
+
+    .sellOrBuy label {
+        font-size: 20px;
+    }
+
+    .sellOrBuy1 {
+        font-size: 20px;
+    }
+
+    .sellOrBuy1 input {
+        width: 2vw;
+    }
+
+    .interests {
+        margin-bottom: 55px;
+    }
+
+    .interests label {
+        font-size: 20px;
+    }
+
+    .interests-div {
+        font-size: 20px;
+        margin-left: 80px;
+    }
+
+    .interests-div input {
+        width: 1.5vw;
+    }
+
+    .avatar {
+        margin-bottom: 55px;
+    }
+
+    .avatar label {
+        font-size: 20px;
+    }
+
+    .avatar input {
+        font-size: 16px;
+    }
+
+    .password {
+        margin-bottom: 50px;
+        padding-right: 35px;
+    }
+
+    .password label {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    input#password {
+        width: 44%;
+        height: 5vh;
+    }
+
+    .registerButtons {
+        padding-bottom: 45px;
+        width: 26vw;
+    }
+
+    .registerButtons input {
+        font-size: 18px;
+        height: 6vh;
+    }
+
+
+    .main-footer {
+        padding: 40px 0px;
+        margin: 0px 20px;
+    }
+
+    .footer-769 section {
+        width: 30%;
+        margin-bottom: 20px;
+    }
+    
+    .footer-769 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer-769 i:hover {
+        color: #39b54a;
+    }
+
+
+    .main-footer h3 {
+        font-size: 20px;
+    }
+
+    .main-footer p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .p-copyright {
+        text-align: start;
+    }
+}
+
+

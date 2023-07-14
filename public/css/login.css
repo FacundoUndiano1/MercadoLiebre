@@ -1,0 +1,499 @@
+
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #ebebeb;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+
+main {
+    width: 90%;
+    margin: auto;
+    background-color: #ebebeb; 
+}
+
+.logo-barra {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 48%;
+    display: flex;
+    align-items: flex-start;
+    color: #666;
+    align-items: center;
+    height: 70px;
+}
+
+.borde-search {
+    border: 1px solid black;
+    background-color: #FFF;
+    width: 90%;
+}
+
+.barra-busqueda {
+    display: flex;
+    width: 48%;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.barra-busqueda input {
+    font-size: 13px;
+    font-weight: 600;
+    width: 85%;
+    border: none;
+    height: 20px;
+}
+
+.barra-busqueda button {
+    border: none;
+    background-color: #FFF;
+}
+
+
+.compra-header h3 {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.compra-header i {
+    padding-right: 3px;
+}
+
+.doble-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-lista {
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav ul {
+    list-style: none;
+    text-align: left;
+    font-size: 12px;
+    display: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.8);
+    font-weight: bold;
+}
+
+.nav ul i {
+    margin-left: 3px;
+}
+
+.burger-menu {
+    color: #FFFFFF;
+    padding: 5px;
+    background-color: #1259c3;
+    border-radius: 5px;
+    width: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.banner img {
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+    height: 19vh;
+}
+
+
+
+
+
+
+.body {
+    background-color: #EAC926;
+}
+
+
+.mainLogin {
+    width: 80%;
+    height: 60vh;
+    background-color:#EAC926;
+    border: 2px solid grey;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #EAC926;
+}
+
+.div-login i {
+    font-size: 26px;
+}
+
+.h1login {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 24px;
+    color: #666;
+}
+
+
+.userName {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+            
+.userName label {
+    font-weight: bold;
+    width: 48%;
+    font-size: 13px;
+}
+            
+.userName input {
+    text-align: center;
+    text-transform: uppercase;
+    width: 45%;
+    height: 20px;
+}
+            
+.password {
+    margin-bottom: 45px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+            
+.password label {
+    font-weight: bold;
+    width: 48%;
+    font-size: 13px;
+}
+            
+.password input {
+    text-align: center;
+    text-transform: uppercase;
+    width: 45%;
+    height: 20px;
+}
+            
+.loginButton {
+    display: flex;
+    justify-content: center;
+}
+
+.loginButton input:hover {
+    background-color: #0022AA
+}
+            
+.loginButton input {
+    font-weight: bold;
+    width: 30%;
+    height: 28px;
+    background-color: #ebebeb;
+}
+
+
+
+
+
+
+.main-footer {
+    border-top: 2px solid grey;
+    background-color: #FFFFFF;
+    font-size: 12px;
+    width: 100%;
+}
+
+.main-footer i {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.main-footer h3 {
+    font-weight: bold;
+    font-size: 16px;
+    color: #666;
+}
+
+.main-footer p {
+    color: #666;
+}
+
+.main-footer .p-copyright {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 361px) {
+
+    .logo {
+        width: 30%;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .barra-busqueda {
+        width: 40%;
+    }
+
+    .barra-busqueda input {
+        font-size: 11px;
+        font-weight: 400;
+        height: 20px;
+    }
+
+    .borde-search {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .compra-header {
+        width: 25%;
+        
+    }
+
+    .compra-header h3 {
+        font-size: 9px;
+        text-align: center;
+        padding-bottom: 7px;
+    }
+
+
+
+    .nav ul {
+       display: flex;
+       margin-bottom: 10px;
+    }
+
+    .nav-lista a {
+        font-size: 8.3px;
+        padding-left: 3px;
+    }
+
+    .burger-menu {
+        display: none;
+    } 
+
+    .banner img {
+        height: 22vh;
+    }
+
+
+
+
+
+    .mainLogin {
+        padding-top: 30px;
+        height: 90vh;
+        width: 90%;
+    }
+
+    .div-login i {
+        font-size: 30px;
+    }
+
+    .h1login {
+        font-size: 28px;
+    }
+
+    .userName {
+        height: 12vh;
+    }
+
+    .userName label {
+        font-size: 16px;
+    }
+
+    .userName input {
+        font-size: 16px;
+        height: 5vh;
+        border: 2px solid #666;
+    }
+
+    .password {
+        height: 12vh;
+    }
+
+    .password label {
+        font-size: 16px;
+    }
+
+    .password input {
+        font-size: 16px;
+        height: 5vh;
+        border: 2px solid #666;
+    }
+
+    .loginButton {
+        align-items: center;
+        height: 16vh;
+    }
+
+    .loginButton input {
+        font-size: 18px;
+        height: 8vh;
+        width: 24vw;
+    }
+}
+
+
+
+
+
+@media (min-width: 769px) {
+    
+    .logo-barra {
+        height: 100px;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .borde-search input {
+        height: 35px;
+        font-size: 15px;
+    }
+    
+    .compra-header h3{
+        font-size: 16px;
+    }
+
+    .nav {
+        margin-bottom: 20px;
+    }
+
+    .doble-lista a {
+        font-size: 15px;
+    }
+
+    .banner img {
+        height: 25vh;
+    }
+
+    .mainLogin {
+        width: 100vw;
+        margin-bottom: -2px;
+        margin-top: 0px;
+        border: none;
+    }
+
+
+    .h1login {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .userName label {
+        font-size: 20px;
+    }
+    
+    .userName input {
+        height: 8vh;
+        font-size: 18px;
+       }
+
+    .password label {
+        font-size: 20px;
+    }
+
+    .password input {
+        height: 8vh;
+        font-size: 18px;
+    }
+
+    .loginButton {
+        height: 20vh;
+    }
+
+    .loginButton input {
+        font-size: 22px;
+        height: 10vh;
+    }
+
+    .main-footer {
+        padding: 40px 20px;
+
+    }
+
+    .footer-769 section {
+        width: 30%;
+        margin-bottom: 20px;
+    }
+
+    .footer-769 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer-769 i:hover {
+        color: #39b54a;
+    }
+
+    .main-footer h3 {
+        font-size: 20px;
+    }
+
+    .main-footer p {
+        font-size: 15px;
+    }
+
+    .p-copyright {
+        text-align: start;
+    }
+}
