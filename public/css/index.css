@@ -162,6 +162,10 @@ main h3 {
     margin-bottom: 15px;
 }
 
+.article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
 .article-footer {
     border-top: 1px solid #ebebeb;
     padding: 15px;    
@@ -186,6 +190,11 @@ main h3 {
     right: 20px;
     top: -15px;
     color: #39b54a;
+    transition: all 1.5s;   
+}
+
+.article i:hover {
+    transform: rotate(-90deg);
 }
 
 .article .price {
@@ -217,6 +226,10 @@ main h3 {
 
 .article-footer .description {
     display: none;
+}
+
+.article:hover .description {
+    display: block;
 }
 
 
@@ -321,7 +334,6 @@ main h3 {
     
     .article {
         width: 47%;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
     .article-footer .price {
@@ -334,7 +346,6 @@ main h3 {
     }
 
     .article-footer .description {
-        display: block;
         font-size: 12px;
         margin-top: 8px;
     }
