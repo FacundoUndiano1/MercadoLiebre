@@ -250,16 +250,6 @@ input#user{
     width: 45%;
     text-align: center;
 }
-   
-.sellOrBuy input {
-    appearance: none;
-    cursor: pointer;
-    background-color: #fff;
-    width: 9px;
-    height: 2vh;
-    border: 1.5px solid #888;
-    margin-left: 6px;
-}
 
 .sellOrBuy1 {
     font-size: 13px;
@@ -283,13 +273,7 @@ input#user{
 }
 
 .interests input {
-    appearance: none;
-    cursor: pointer;
-    background-color: #fff;
-    width: 9px;
-    height: 2vh;
-    border: 1.5px solid #888;
-    margin-left: 6px;
+    margin-left: 10px;
 }
 
 .interests-div {
@@ -556,10 +540,6 @@ input#password {
         font-size: 16px;
     }
 
-    .sellOrBuy1 input {
-        width: 12px;
-    }
-
     .interests {
         margin-bottom: 45px;
     }
@@ -570,10 +550,6 @@ input#password {
 
     .interests-div {
         font-size: 16px;
-    }
-
-    .interests-div input {
-        width: 12px;
     }
 
     .avatar {
@@ -735,10 +711,6 @@ input#password {
         font-size: 20px;
     }
 
-    .sellOrBuy1 input {
-        width: 2vw;
-    }
-
     .interests {
         margin-bottom: 55px;
     }
@@ -750,10 +722,6 @@ input#password {
     .interests-div {
         font-size: 20px;
         margin-left: 80px;
-    }
-
-    .interests-div input {
-        width: 1.5vw;
     }
 
     .avatar {
