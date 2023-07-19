@@ -129,7 +129,6 @@ main {
     width: 100%;
     display: flex;
     justify-content: stretch;
-    height: 19vh;
 }
 
 
@@ -161,6 +160,8 @@ main {
     align-items: center;
     justify-content: space-around;
     background-color: #EAC926;
+    border-bottom: 1px solid #666;
+    margin-bottom: 20px;
 }
 
 .div-login i {
@@ -236,7 +237,10 @@ main {
     background-color: #ebebeb;
 }
 
-
+.password-recovery {
+    font-size: 12px;
+    margin-top: 10px;
+}
 
 
 
@@ -329,18 +333,17 @@ main {
         display: none;
     } 
 
-    .banner img {
-        height: 22vh;
-    }
-
-
-
+   
 
 
     .mainLogin {
         padding-top: 30px;
-        height: 90vh;
+        height: 100vh;
         width: 90%;
+    }
+
+    .div-login {
+        border-bottom: 2px solid #666;
     }
 
     .div-login i {
@@ -389,6 +392,15 @@ main {
         height: 8vh;
         width: 24vw;
     }
+
+    .password-recovery {
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 13px;
+
+    }
 }
 
 
@@ -428,6 +440,7 @@ main {
 
     .mainLogin {
         width: 100vw;
+        height: 110vh;
         margin-bottom: -2px;
         margin-top: 0px;
         border: none;
@@ -464,6 +477,13 @@ main {
     .loginButton input {
         font-size: 22px;
         height: 10vh;
+    }
+
+    .password-recovery {
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
     }
 
     .main-footer {
